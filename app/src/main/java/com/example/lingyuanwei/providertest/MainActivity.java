@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 values.put("name", "outName");
                 values.put("author", "outAuthor");
                 values.put("pages", "132");
-                values.put("price", "20.2");
+                values.put("price", "55.2");
                 Uri uriNew = getContentResolver().insert(uriAdd, values);
                 newId = uriNew.getPathSegments().get(1);
                 break;
