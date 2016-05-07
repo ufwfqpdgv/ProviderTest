@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_addToBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="addToBook" />
+
+    <Button
+        android:id="@+id/btn_quaryFromBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="quaryFromBook" />
+
+    <Button
+        android:id="@+id/btn_updateBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="updateBook" />
+
+    <Button
+        android:id="@+id/btn_deleteBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="deleteBook" />
+</LinearLayout>
